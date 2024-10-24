@@ -4,7 +4,8 @@
    ```sh
      git clone https://github.com/1kurs1/TGBotDeleter.git
    ```
-2) На unix-like системах просто можно прописать ```chmod +x build.sh``` и затем ```./build.sh```
+2) Добавление ```tgbot-cpp```: вот официальный <a href="https://github.com/reo7sp/tgbot-cpp">гайд
+3) На unix-like системах просто можно прописать ```chmod +x build.sh``` и затем ```./build.sh```
 на Windows придется самому собирать с помощью cmake (потом добавлю .bat-файл)
-3) Обновить файл key.txt своим API Token
-4) Проект собран, исполняемый файл лежит в папке build (```.build/Bot-cleaner``` для запуска на unix-like)
+4) Обновить файл key.txt своим API Token
+5) Проект собран, исполняемый файл лежит в папке ```build``` (пропишите ```.build/Bot-cleaner``` для запуска на unix-like)
